@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=10.0">
+	<title>Document</title>
+</head>
+
+<body>
+	<title>il generatore di numeri casuale</title>
+
+<p>clicca per generare un numero casuale tra 1 e 26.</p>
+
+<button onclick="myFunction()">fortunato del giorno!</button>
+
+<p id="versione 1"></p>
+
+<script>
+function myFunction() {
+  var x = Math.floor((Math.random() * 26) + 1);
+  document.getElementById("versione 1").innerHTML = x;
+}
+</script>
+
+</body>
+</html>
