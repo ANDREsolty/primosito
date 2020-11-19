@@ -5,3 +5,7 @@ body {
 button {
 	background-color: rgb(155, 16, 44);
 }
+
+p {
+    color: aqua;
+}
