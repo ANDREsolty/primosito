@@ -1,11 +1,18 @@
 		
 body {
-	background-image: url("immagini2/sfondo.PNG");
+	background-image: url("immagini2/Z.png");
 }
 button {
 	background-color: rgb(155, 16, 44);
+	border-radius: 20%;
+}
+h1 {
+	color: white;
 }
 
+h2 {
+	color: white;
+}
 p {
-    color: aqua;
+	color: white;
 }
