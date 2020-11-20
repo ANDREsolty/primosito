@@ -8,21 +8,24 @@
 </head>
 
 <body>
-
+	<center>
+			
 	<h1><strong><em>clicca per generare un numero casuale tra 1 e 26.</em></strong></h1>
 
-<button onclick="myFunction()"><h2><strong> fortunato del giorno!</strong></h2></button>
+	<button onclick="myFunction()"><h2><strong> fortunato del giorno!</strong></h2></button>
+	
+	<h2 id="versione 1"></h2>
+	
+	<script>
+	function myFunction() {
+	  var numgen = Math.floor((Math.random() * 26) + 1);
+	  document.getElementById("versione 1").innerHTML = numgen;
+	}
+	
+	</script>
+	<p>̿̿'̿'\̵͇̿̿\=(•̪●)=/̵͇̿̿/'̿̿ ̿ ̿ ̿  mi dispiace!</p>
+	<p>sito di Andrea e Domenico©</p>
+	</center>
 
-<h2 id="versione 1"></h2>
-
-<script>
-function myFunction() {
-  var numgen = Math.floor((Math.random() * 26) + 1);
-  document.getElementById("versione 1").innerHTML = numgen;
-}
-
-</script>
-<p>̿̿'̿'\̵͇̿̿\=(•̪●)=/̵͇̿̿/'̿̿ ̿ ̿ ̿  mi dispiace!</p>
-<p>sito di Andrea e Domenico©</p>
 </body>
 </html>
