@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(88, 88, 88);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("immagini2/immaginigif/pnztT1T.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    background: black;
+    text-align: center;
+    
+}
+section {
+    background: white;
+    color: black;
+}
+.bello {
+    color: black;
+}
+.bottone1 {
+    position: relative;
+    left: 637px;
+	background-color: rgb(214, 164, 0);
+	border-radius: 10px;
+}
+.bottone2 {
+    position: relative;
+    left: 562px;
+    top: 100px;
+	background-color: rgb(214, 164, 0);
+	border-radius: 10px;
+}
+/*allo fai live server in index.html e dimmi che ne pensi (cosi si toglie)-->*/ 
+
+
+
+
+/*eccolo  gg come si toglie        ok*/

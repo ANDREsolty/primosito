@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<title>Sito Soltani-Cecere</title>
+	<link rel="stylesheet" href="style2.css">
+</head>
+<!-- -->
+<!--bro come faccio a modificare la imagine -->
+<script type="text/javascript">
+    function fn1()
+    {
+        var arrosticini = document.getElementById("testo").value;
+        alert("ciò che hai inserito nello spazio di testo è "+arrosticini)
+        console.log("il uo numero è "+arrosticini)
+    }
+
+    function numerogenerato()
+    {
+        var minim = document.getElementById("min").value;
+        var maxim = document.getElementById("max").value;
+        var numgenerat = Math.floor((Math.random() * (maxim - minim + 1)) + minim);
+        document.getElementById("numero,generato").innerHTML = numgenerat;
+
+    }
+
+</script>
+
+<body>
+    <header>
+        <h1>Sito Soltani-Cecere <h4>(soci in affari)</h4></h1>
+    </header>
+    
+    <section>
+            <li>
+                <a href="index.html" class="bello">Sito per estrarre numeri casuali</a>
+                
+            </li>
+            <li><a href="giochi.html" class="bello">gioco del TRIS</a></li>
+    </section>
+    
+    <footer>
+
+    </footer>
+
+    <input id="min" type="number" name="minimo" placeholder="inserisci un numero minimo" class="space">
+    <input id="max" type="number" name="massimo" placeholder="inserisci un numero massimo" class="space">
+    <br>
+    <button onclick="numerogenerato()" id="btn2">proviamo</button>
+    <h2 id="numero,generato"></h2>
+
+    <audio autoplay >  
+        
+        <source  type="audio/mpeg" src ="sound/Hearthstone_Theme_8_Bit_Tribute_to_Hearthstone_-_8_Bit_Universe.mp3"       >
+            
+    </audio>
+    <button class="bottone1"><h1>ciao</h1></button align = "center">
+    <button class="bottone2"><h1>ciao</h1></button align = "center">
+</body>
+
+
+
