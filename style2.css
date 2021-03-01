@@ -6,11 +6,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-header {
+/*header {
     background: black;
     text-align: center;
     
-}
+}*/
 section {
     background: white;
     color: black;
@@ -20,20 +20,12 @@ section {
 }
 .bottone1 {
     position: relative;
-    left: 637px;
 	background-color: rgb(214, 164, 0);
 	border-radius: 10px;
 }
 .bottone2 {
     position: relative;
-    left: 562px;
-    top: 100px;
-	background-color: rgb(214, 164, 0);
-	border-radius: 10px;
+    background-color: rgb(214, 164, 0) ; 
+
 }
-/*allo fai live server in index.html e dimmi che ne pensi (cosi si toglie)-->*/ 
-
-
-
-
-/*eccolo  gg come si toglie        ok*/
+/*lo sapevoh*/

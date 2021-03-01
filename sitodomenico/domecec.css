@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+  
+    background-color: #FFB6C1;
+
+
+}
+
+button{
+    width:25%; 
+    height:25%; 
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-shadow: none;
+    text-align: center;
+    cursor: default;
+    font: 50px Verdana;
+    background-color: gold;
+    border-radius: 10px;
+
+
+
+
+}

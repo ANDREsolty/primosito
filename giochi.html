@@ -30,6 +30,7 @@
             var turn = document.getElementById("turn"),
              // boxes => all boxes
             // X_or_O => to set X or O into the box
+            
                 boxes = document.querySelectorAll("#main div"), X_or_O = 0;
             
             function selectWinnerBoxes(b1,b2,b3){
@@ -52,7 +53,7 @@
                     box8 = document.getElementById("box8"),
                     box9 = document.getElementById("box9");
             
-            // get all posibilites
+            // ottieni tutte le possibilità
               if(box1.innerHTML !== "" && box1.innerHTML === box2.innerHTML && box1.innerHTML === box3.innerHTML)
                  selectWinnerBoxes(box1,box2,box3);
          
